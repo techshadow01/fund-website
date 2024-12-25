@@ -6,7 +6,7 @@ import Photo1 from './assets/photo2.avif'
 import Photo2 from './assets/photo3.avif'
 import Photo3 from './assets/photo4.avif'
 import Photo4 from './assets/photo5.avif'
-import { AnimatedTestimonials } from "@/app/ui/testimonial";
+import AnimatedTestimonials from "@/app/ui/testimonial";
 
 const testimonials = [
     {
