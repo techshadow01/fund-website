@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import React from 'react'
 import Photo from './assets/photo.avif'
@@ -6,7 +6,7 @@ import Photo1 from './assets/photo2.avif'
 import Photo2 from './assets/photo3.avif'
 import Photo3 from './assets/photo4.avif'
 import Photo4 from './assets/photo5.avif'
-// import AnimatedTestimonials from "@/app/ui/testimonial";
+ import AnimatedTestimonials from "@/app/ui/testimonial";
 
 const testimonials = [
     {
@@ -51,7 +51,7 @@ const about = () => {
         <div className='mx-auto relative w-[70%] h-[70vh] p-4 flex flex-col items-center justify-center gap-3'>
             <div className='text-center text-white bg-[#D0DDEA] text-6xl font-bold rounded-xl p-3 shadow-xl'>Support your favarite Creator</div>
             <div className='flex items-center justify-center w-[100%] h-full'>
-                {/* <div><AnimatedTestimonials testimonials={testimonials} autoplay={true} /></div> */}
+                 <div><AnimatedTestimonials testimonials={testimonials} autoplay={true} /></div>
             </div>
         </div >
     )
