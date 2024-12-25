@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Photo from './assets/photo.avif'
 import Photo1 from './assets/photo2.avif'
