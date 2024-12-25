@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export const AnimatedTestimonials = ({
+const AnimatedTestimonials = ({
     testimonials,
     autoplay = false
 }) => {
@@ -150,3 +150,5 @@ export const AnimatedTestimonials = ({
         </div>)
     );
 };
+
+export default AnimatedTestimonials
