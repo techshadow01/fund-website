@@ -1,14 +1,9 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import Coffee1 from './assets/coffee1.svg'
-import Coffee2 from './assets/coffee2.svg'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import Photo from './assets/Photo.AVIF'
-import Photo1 from './assets/Photo2.AVIF'
-import Photo2 from './assets/Photo3.AVIF'
-import Photo3 from './assets/Photo4.AVIF'
-import Photo4 from './assets/Photo5.AVIF'
+import Photo from './assets/Photo.avif'
+import Photo1 from './assets/Photo2.avif'
+import Photo2 from './assets/Photo3.avif'
+import Photo3 from './assets/Photo4.avif'
+import Photo4 from './assets/Photo5.avif'
 import { AnimatedTestimonials } from "@/app/ui/testimonial";
 
 const testimonials = [
