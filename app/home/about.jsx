@@ -49,32 +49,6 @@ const about = () => {
         <div className='mx-auto relative w-[70%] h-[70vh] p-4 flex flex-col items-center justify-center gap-3'>
             <div className='text-center text-white bg-[#D0DDEA] text-6xl font-bold rounded-xl p-3 shadow-xl'>Support your favarite Creator</div>
             <div className='flex items-center justify-center w-[100%] h-full'>
-                {/* <div className='flex flex-col items-center justify-center gap-4 text-2xl px-4 font-semibold w-[50%] h-full pl-[10%]'>
-                    <div className='relative text-center'>support people by buying them a coffee. In just a couple of taps, your fans can make the payment and leave a message.
-                        <motion.div
-                            initial={{ rotate: 20 }}
-                            className='absolute -left-10 -top-10'
-                        ><Image src={Coffee1} alt="" width={60} /></motion.div>
-                    </div>
-                    <div className='relative text-center'>support people by buying them a coffee. In just a couple of taps, your fans can make the payment and leave a message.
-                        <motion.div
-                            initial={{ rotate: -20 }}
-                            className='absolute -right-10 -top-10 -z-10'
-                        ><Image src={Coffee2} alt="" width={60} />
-                        </motion.div>
-                        <motion.div
-                            initial={{ rotate: 10 }}
-                            className='absolute -left-10 top-[50%]'
-                        ><Image src={Coffee2} alt="" width={60} /></motion.div>
-                    </div>
-                </div>
-                <div className='w-[50%] h-full'>
-                    <DotLottieReact
-                        src="https://lottie.host/434ae11f-39d1-4664-939b-b9b8ba611416/4OWn8nRbWG.lottie"
-                        loop
-                        autoplay
-                    />
-                </div> */}
                 <div><AnimatedTestimonials testimonials={testimonials} autoplay={true} /></div>
             </div>
         </div >
