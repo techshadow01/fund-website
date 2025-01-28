@@ -6,9 +6,7 @@ import Image from 'next/image'
 import Html from './assets/html.svg'
 import Css from './assets/css.svg'
 import Javascript from './assets/javascript.svg'
-import Next1 from './assets/next1.svg'
-import React1 from './assets/react.svg'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import JourneyImg from './assets/journeyimg.png'
 
 const Design = () => {
     return (
@@ -94,7 +92,7 @@ const Progress = () => {
                         >
                             <Image src={item.src} alt="" width={50} />
                         </motion.div>
-                        <div className='text-lg font-semibold'>
+                        <div className='text-lg font-semibold dark:text-white'>
                             {item.name}
                         </div>
                     </div>
@@ -383,33 +381,37 @@ const Ui = (params) => {
 
 const journey = () => {
     return (
-        <div className='bg-slate-300 w-[60%] rounded-lg mx-auto shadow-xl'>
-            <div className='text-5xl font-bold flex items-center justify-center my-3 '>
-                <div className='relative flex gap-3'>
-                    <div>Show Your Amazing </div>
-                    <div className='bg-gradient-to-r from-blue-400  to-blue-600  text-transparent bg-clip-text text-7xl'> Skills</div>
-                </div>
+        <div className='relative flex items-center justify-center w-screen'>
+            <div className='bg-slate-300 dark:bg-[#121212] w-[60%] max-sm:w-[90%] rounded-lg shadow-xl max-sm:hidden'>
+                <div className='text-5xl max-sm:text-3xl font-bold flex items-center justify-center my-3 '>
+                    <div className=' flex gap-3 dark:text-white'>
+                        <div>Show Your Amazing </div>
+                        <div className='bg-gradient-to-r from-blue-400  to-blue-600  text-transparent bg-clip-text text-7xl max-sm:text-5xl'> Skills</div>
+                    </div>
 
+                </div>
+                <div className='m-4 max-sm:m-0 flex flex-col items-center justify-center gap-4 '>
+                    <div className='flex flex-col items-center justify-center gap-4'>
+                        <div className='flex items-end gap-4'>
+                            <Design className='shadow-lg' />
+                            <div className='flex flex-col gap-3'>
+                                <Progress />
+                                <Code />
+                            </div>
+
+                        </div>
+                        <div className='flex items-start gap-4'>
+                            <div className='flex flex-col gap-4 items-end'>
+                                <Progress2 />
+                                <Feedback />
+                            </div>
+                            <Ui />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='m-4 flex flex-col items-center justify-center gap-4'>
-                <div className='flex flex-col items-center justify-center gap-4'>
-                    <div className='flex items-end gap-4'>
-                        <Design className='shadow-lg' />
-                        <div className='flex flex-col gap-3'>
-                            <Progress />
-
-                            <Code />
-                        </div>
-
-                    </div>
-                    <div className='flex items-start gap-4'>
-                        <div className='flex flex-col gap-4 items-end'>
-                            <Progress2 />
-                            <Feedback />
-                        </div>
-                        <Ui />
-                    </div>
-                </div>
+            <div className='relative w-[60%] max-sm:w-[90%] max-md:w-[100%] rounded-lg overflow-hidden shadow-xl sm:hidden'>
+                <Image src={JourneyImg} alt="error" />
             </div>
         </div>
     )
