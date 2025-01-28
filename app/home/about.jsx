@@ -1,13 +1,14 @@
 'use client'
 
 import React from 'react'
-import Photo from './assets/photo.avif'
-import Photo1 from './assets/photo2.avif'
-import Photo2 from './assets/photo3.avif'
-import Photo3 from './assets/photo4.avif'
-import Photo4 from './assets/photo5.avif'
+import Photo from './assets/Photo.avif'
+import Image from 'next/image'
+import Photo1 from './assets/Photo2.avif'
+import Photo2 from './assets/Photo3.avif'
+import Photo3 from './assets/Photo4.avif'
+import Photo4 from './assets/Photo5.avif'
 import AnimatedTestimonials from "@/app/ui/testimonial";
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import Heart from './assets/heart.svg'
 import { motion } from 'framer-motion'
 
 const testimonials = [
@@ -50,12 +51,12 @@ const testimonials = [
 
 const about = () => {
     return (
-        <div className='mx-auto relative p-4 flex flex-col items-center justify-center gap-3 '>
+        <div className='mx-auto relative p-4 flex flex-col items-center justify-center gap-3'>
             <motion.div
                 className='text-center text-white bg-[#D0DDEA] dark:bg-[#121212] text-6xl font-bold rounded-xl p-3 shadow-xl max-sm:hidden'>Support your favarite Creator</motion.div>
             <div className='text-center text-white bg-[#D0DDEA] text-6xl font-bold rounded-xl p-3 shadow-xl flex gap-3 sm:hidden dark:bg-[#121212]'>
                 <div>Wall of </div>
-                <FavoriteIcon className='size-16 ' />
+                <Image src={Heart} width={64} />
             </div>
             <div className='flex items-center justify-center w-[100%] h-full '>
                 <div><AnimatedTestimonials testimonials={testimonials} autoplay={true} /></div>
