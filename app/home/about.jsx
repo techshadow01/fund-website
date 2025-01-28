@@ -1,11 +1,11 @@
 'use client'
 
 import React from 'react'
-import Photo from './assets/Photo.avif'
-import Photo1 from './assets/Photo2.avif'
-import Photo2 from './assets/Photo3.avif'
-import Photo3 from './assets/Photo4.avif'
-import Photo4 from './assets/Photo5.avif'
+import Photo from './assets/Photo.AVIF'
+import Photo1 from './assets/Photo2.AVIF'
+import Photo2 from './assets/Photo3.AVIF'
+import Photo3 from './assets/Photo4.AVIF'
+import Photo4 from './assets/Photo5.AVIF'
 import AnimatedTestimonials from "@/app/ui/testimonial";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { motion } from 'framer-motion'
