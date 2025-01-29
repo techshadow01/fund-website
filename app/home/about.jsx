@@ -57,7 +57,7 @@ const about = () => {
                 className='text-center text-white bg-[#D0DDEA] dark:bg-[#121212] text-6xl font-bold rounded-xl p-3 shadow-xl max-sm:hidden'>Support your favarite Creator</motion.div>
             <div className='text-center text-white bg-[#D0DDEA] text-6xl font-bold rounded-xl p-3 shadow-xl flex gap-3 sm:hidden dark:bg-[#121212]'>
                 <div>Wall of </div>
-                <Image src={Heart} width={64} />
+                <Image src={Heart} alt='heart' width={64} />
             </div>
             <div className='flex items-center justify-center w-[100%] h-full '>
                 <div><AnimatedTestimonials testimonials={testimonials} autoplay={true} /></div>
