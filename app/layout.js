@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import SessionWrapper from "./components/SessionWrapper";
 import "./globals.css";
 
