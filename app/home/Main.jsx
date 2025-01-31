@@ -8,7 +8,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Image from 'next/image';
 import { useSession, signIn, signOut } from "next-auth/react"
 
-const main = () => {
+const Main = () => {
 
     const { data: session } = useSession();
 
@@ -61,4 +61,4 @@ const main = () => {
     )
 }
 
-export default main
+export default Main
