@@ -1,6 +1,6 @@
 'use server'
 
-import EditProfile from '../components/editprofile'
+import EditProfile from '../components/Editprofile'
 
 const page = ({ params }) => {
     return (
