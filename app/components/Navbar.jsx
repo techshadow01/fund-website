@@ -4,7 +4,7 @@ import { React, useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from "motion/react"
 import Image from 'next/image'
-import Sign from './ui/modal'
+import Sign from './ui/Modal1'
 import Msearch from './ui/Searchmodal'
 import Logo from './assets/slogo.png'
 import Social1 from './assets/email1.svg'
