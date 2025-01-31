@@ -10,7 +10,7 @@ import Textarea from '@mui/joy/Textarea';
 import Typography from '@mui/joy/Typography';
 import Box from '@mui/joy/Box';
 
-import Carousel from './carousel'
+import Carousel from './Carousel'
 import { Skell } from '../skeletions/page';
 import CmtUser from '../paypagecomponent/cmtUser'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
