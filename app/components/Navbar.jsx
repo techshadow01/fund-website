@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { motion } from "motion/react"
 import Image from 'next/image'
 import Sign from './ui/modal'
-import Msearch from './ui/searchmodal'
+import Msearch from './ui/Searchmodal'
 import Logo from './assets/slogo.png'
 import Social1 from './assets/email1.svg'
 import Social2 from './assets/linkedin1.svg'
