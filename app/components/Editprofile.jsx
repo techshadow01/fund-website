@@ -27,7 +27,7 @@ const VisuallyHiddenInput = styled('input')`
 `;
 
 
-const editprofile = () => {
+const Editprofile = () => {
     const { data: session } = useSession()
     const router = useRouter()
     const [profilepic, setprofilepic] = useState()
@@ -326,4 +326,4 @@ const editprofile = () => {
     )
 }
 
-export default editprofile
+export default Editprofile
