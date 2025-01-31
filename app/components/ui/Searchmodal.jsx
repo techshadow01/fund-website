@@ -27,7 +27,7 @@ function GeometrySkeleton() {
     );
 }
 
-const searchmodal = () => {
+const Searchmodal = () => {
     const router = useRouter()
     const [cards, setcards] = useState([])
     const [open, setOpen] = useState(false);
@@ -94,4 +94,4 @@ const searchmodal = () => {
     );
 }
 
-export default searchmodal
+export default Searchmodal
