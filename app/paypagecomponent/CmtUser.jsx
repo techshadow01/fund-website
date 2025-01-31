@@ -3,7 +3,7 @@
 import { React, useState, useEffect } from 'react'
 import { fetchuser } from '@/actions/useractions'
 
-const cmtUser = (props) => {
+const CmtUser = (props) => {
 
     const [cmtuser, setcmtuser] = useState('')
     //fetch comment user data
@@ -31,4 +31,4 @@ const cmtUser = (props) => {
     )
 }
 
-export default cmtUser
+export default CmtUser
