@@ -2,7 +2,7 @@
 import React from 'react'
 import { motion } from "motion/react"
 import Button from '@mui/material/Button';
-import Sign from '@/app/components/ui/modal'
+import Sign from '@/app/components/ui/Modal1'
 import Star from '@/app/components/assets/star.svg'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Image from 'next/image';
