@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import Main from './main'
+import Main from './Main'
 import Cards from './movingcards'
 import About from './about'
 import Price from './price'
