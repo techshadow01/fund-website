@@ -40,7 +40,7 @@ const Githublogo = () => {
 }
 
 
-const navbar = () => {
+const Navbar = () => {
     const { data: session } = useSession()
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -124,5 +124,5 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar
 
