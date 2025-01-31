@@ -13,7 +13,7 @@ import Google from '../assets/google.svg'
 import { useSession, signIn, signOut } from "next-auth/react"
 
 
-const modal = () => {
+const Modal1 = () => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -77,4 +77,4 @@ const modal = () => {
     );
 }
 
-export default modal
+export default Modal1
