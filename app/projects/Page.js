@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Button } from '@mui/joy';
 import { Projectskell } from '../skeletions/page';
 
-const page = () => {
+const Page = () => {
 
     const router = useRouter()
     const [cards, setcards] = useState([])
@@ -66,4 +66,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
