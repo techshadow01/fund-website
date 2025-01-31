@@ -14,7 +14,7 @@ import Social4 from './assets/github1.svg'
 import Button from '@mui/joy/Button';
 import BasicMenu from './ui/Dashboard'
 import SearchIcon from '@mui/icons-material/Search';
-import Mnav from './mobile_nav'
+import Mnav from './Mobile_nav'
 import { useSession, signIn, signOut } from "next-auth/react"
 
 import { ThemeSwitcher } from '../dark/dark'
