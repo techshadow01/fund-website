@@ -12,7 +12,7 @@ import Box from '@mui/joy/Box';
 
 import Carousel from './Carousel'
 import { Skell } from '../skeletions/page';
-import CmtUser from '../paypagecomponent/cmtUser'
+import CmtUser from '../paypagecomponent/CmtUser'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 import CheckIcon from '@mui/icons-material/Check';
