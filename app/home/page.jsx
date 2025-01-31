@@ -1,4 +1,3 @@
-"use client"
 
 import React from 'react'
 import { motion } from 'framer-motion'
@@ -41,8 +40,7 @@ const page = () => {
                 whileInView={{ y: 0, opacity: [0, 0.2, 0.5, 1], transition: { delay: 0.1, duration: 0.5, ease: 'easeInOut' } }}
                 viewport={{ once: true, amount: 0.3 }}
             ><Price /></motion.div>
-            <motion.div
-            ><Footer /></motion.div>
+            <Footer />
         </div >
     )
 }
