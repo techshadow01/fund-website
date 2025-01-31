@@ -56,7 +56,7 @@ const works = [
     },
 ]
 
-const mobile_nav = () => {
+const Mobile_nav = () => {
     const [open, setOpen] = React.useState(false);
     return (
         <div className='sm:hidden '>
@@ -119,4 +119,4 @@ const mobile_nav = () => {
     );
 }
 
-export default mobile_nav
+export default Mobile_nav
