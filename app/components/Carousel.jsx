@@ -42,7 +42,7 @@ function SamplePrevArrow(props) {
 
 
 
-const carousel = (props) => {
+const Carousel = (props) => {
 
     const [value, setvalue] = useState(1)
     const [loading, setloading] = useState(true)
@@ -94,4 +94,4 @@ const carousel = (props) => {
     )
 }
 
-export default carousel
+export default Carousel
